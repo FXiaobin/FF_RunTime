@@ -13,6 +13,11 @@
 		181B6F351E8B58D9004DB82E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181B6F331E8B58D9004DB82E /* Main.storyboard */; };
 		181B6F371E8B58D9004DB82E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181B6F361E8B58D9004DB82E /* Assets.xcassets */; };
 		181B6F3A1E8B58D9004DB82E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181B6F381E8B58D9004DB82E /* LaunchScreen.storyboard */; };
+		181B6F431E8B58F0004DB82E /* RunTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 181B6F421E8B58F0004DB82E /* RunTime.m */; };
+		181B6F461E8B61EE004DB82E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 181B6F451E8B61EE004DB82E /* Person.m */; };
+		184EF22C1E8B897A00F114A0 /* placeholder_image@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 184EF22B1E8B897A00F114A0 /* placeholder_image@2x.jpg */; };
+		184EF22F1E8B8A0E00F114A0 /* UIImage+Exchange.m in Sources */ = {isa = PBXBuildFile; fileRef = 184EF22E1E8B8A0E00F114A0 /* UIImage+Exchange.m */; };
+		184EF2321E8B8E4F00F114A0 /* NewImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 184EF2311E8B8E4F00F114A0 /* NewImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,15 @@
 		181B6F361E8B58D9004DB82E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		181B6F391E8B58D9004DB82E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		181B6F3B1E8B58D9004DB82E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181B6F411E8B58F0004DB82E /* RunTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunTime.h; sourceTree = "<group>"; };
+		181B6F421E8B58F0004DB82E /* RunTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunTime.m; sourceTree = "<group>"; };
+		181B6F441E8B61EE004DB82E /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		181B6F451E8B61EE004DB82E /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		184EF22B1E8B897A00F114A0 /* placeholder_image@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "placeholder_image@2x.jpg"; sourceTree = "<group>"; };
+		184EF22D1E8B8A0E00F114A0 /* UIImage+Exchange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Exchange.h"; sourceTree = "<group>"; };
+		184EF22E1E8B8A0E00F114A0 /* UIImage+Exchange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Exchange.m"; sourceTree = "<group>"; };
+		184EF2301E8B8E4F00F114A0 /* NewImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewImage.h; sourceTree = "<group>"; };
+		184EF2311E8B8E4F00F114A0 /* NewImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewImage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +56,7 @@
 		181B6F1E1E8B58D9004DB82E = {
 			isa = PBXGroup;
 			children = (
+				184EF22B1E8B897A00F114A0 /* placeholder_image@2x.jpg */,
 				181B6F291E8B58D9004DB82E /* RunTime */,
 				181B6F281E8B58D9004DB82E /* Products */,
 			);
@@ -62,6 +77,14 @@
 				181B6F2E1E8B58D9004DB82E /* AppDelegate.m */,
 				181B6F301E8B58D9004DB82E /* ViewController.h */,
 				181B6F311E8B58D9004DB82E /* ViewController.m */,
+				181B6F411E8B58F0004DB82E /* RunTime.h */,
+				181B6F421E8B58F0004DB82E /* RunTime.m */,
+				181B6F441E8B61EE004DB82E /* Person.h */,
+				181B6F451E8B61EE004DB82E /* Person.m */,
+				184EF22D1E8B8A0E00F114A0 /* UIImage+Exchange.h */,
+				184EF22E1E8B8A0E00F114A0 /* UIImage+Exchange.m */,
+				184EF2301E8B8E4F00F114A0 /* NewImage.h */,
+				184EF2311E8B8E4F00F114A0 /* NewImage.m */,
 				181B6F331E8B58D9004DB82E /* Main.storyboard */,
 				181B6F361E8B58D9004DB82E /* Assets.xcassets */,
 				181B6F381E8B58D9004DB82E /* LaunchScreen.storyboard */,
@@ -139,6 +162,7 @@
 			files = (
 				181B6F3A1E8B58D9004DB82E /* LaunchScreen.storyboard in Resources */,
 				181B6F371E8B58D9004DB82E /* Assets.xcassets in Resources */,
+				184EF22C1E8B897A00F114A0 /* placeholder_image@2x.jpg in Resources */,
 				181B6F351E8B58D9004DB82E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,7 +174,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				184EF22F1E8B8A0E00F114A0 /* UIImage+Exchange.m in Sources */,
+				184EF2321E8B8E4F00F114A0 /* NewImage.m in Sources */,
+				181B6F431E8B58F0004DB82E /* RunTime.m in Sources */,
 				181B6F321E8B58D9004DB82E /* ViewController.m in Sources */,
+				181B6F461E8B61EE004DB82E /* Person.m in Sources */,
 				181B6F2F1E8B58D9004DB82E /* AppDelegate.m in Sources */,
 				181B6F2C1E8B58D9004DB82E /* main.m in Sources */,
 			);
@@ -272,6 +300,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = RunTime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fanxiaobin.RunTime;
@@ -283,6 +312,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = RunTime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fanxiaobin.RunTime;
@@ -309,6 +339,7 @@
 				181B6F401E8B58D9004DB82E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
